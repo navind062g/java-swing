@@ -13,9 +13,7 @@ public class FP01Functional {
 		printAllTheOddNumbersInTheList(List.of(12, 15, 6, 4, 8, 9, 18, 19, 10, 2));
 
 		// print all the courses individually
-		List<String> courses = List.of("Spring", "Spring Boot", "API", 
-				"Microservices", "AWS", "PCF", "Azure", "Docker",
-				"Kubernetes");
+		List<String> courses = List.of("Spring", "Spring Boot", "API", "Microservices", "AWS", "PCF", "Azure", "Docker", "Kubernetes");
 		printCourses(courses);
 
 		printCoursesContainingSpring(courses);
